@@ -1,0 +1,14 @@
+Random Seed: 2723032
+
+Structure Life: 15 Initial Period 1 Ages Randomized (Uniformly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   200   550      23      27      32     646     646    0.09
+     2   550  1000      32      40      51    1215    1215    0.10
+     3  1000  1150      51     268    1418    4848    4848    2.25
+
+
+Period Start   End Implied Growth
+ 1 - 2   375   775          0.095
+ 2 - 3   775  1075          0.831
+
