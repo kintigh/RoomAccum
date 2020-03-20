@@ -1,0 +1,166 @@
+Random Seed: 1749688412
+
+Structure Life: 15 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950       8      10      13      38      38    0.90 (  0.900 -   0.910)
+     2   950  1050      13      16      19     105     105    0.43 (  0.430 -   0.440)
+     3  1050  1125      19      19      19      97      97    0.00 (  0.000 -   0.010)
+     4  1125  1175      19      36      67     129     129    2.52 (  2.510 -   2.520)
+     5  1175  1225      67      94     132     323     323    1.35 (  1.350 -   1.359)
+     6  1225  1275     132     124     117     468     468   -0.24 ( -0.240 -  -0.237)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 15 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950       9      10      11      38      38    0.40 (  0.340 -   0.400)
+     2   950  1050      11      15      22     105     105    0.68 (  0.680 -   0.689)
+     3  1050  1125      22      19      17      97      97   -0.29 ( -0.300 -  -0.280)
+     4  1125  1175      17      35      72     129     129    2.89 (  2.880 -   2.900)
+     5  1175  1225      72      95     125     323     323    1.09 (  1.090 -   1.097)
+     6  1225  1275     125     124     123     468     468   -0.03 ( -0.034 -  -0.030)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 15 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      10      10      10      38      38   -0.08 ( -0.100 -  -0.020)
+     2   950  1050      10      15      24     105     105    0.92 (  0.910 -   0.920)
+     3  1050  1125      24      19      16      97      97   -0.57 ( -0.570 -  -0.560)
+     4  1125  1175      16      35      77     129     129    3.25 (  3.240 -   3.250)
+     5  1175  1225      77      95     118     323     323    0.85 (  0.848 -   0.850)
+     6  1225  1275     118     123     128     468     468    0.16 (  0.164 -   0.167)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 20 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      10      13      17      38      38    1.11 (  1.100 -   1.110)
+     2   950  1050      17      21      25     105     105    0.37 (  0.370 -   0.380)
+     3  1050  1125      25      26      26      97      97    0.07 (  0.060 -   0.070)
+     4  1125  1175      26      49      93     129     129    2.54 (  2.530 -   2.540)
+     5  1175  1225      93     126     171     323     323    1.23 (  1.230 -   1.238)
+     6  1225  1275     171     158     147     468     468   -0.31 ( -0.309 -  -0.305)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 20 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      11      13      15      38      38    0.68 (  0.620 -   0.700)
+     2   950  1050      15      21      28     105     105    0.59 (  0.590 -   0.600)
+     3  1050  1125      28      26      24      97      97   -0.21 ( -0.210 -  -0.200)
+     4  1125  1175      24      49     100     129     129    2.90 (  2.900 -   2.910)
+     5  1175  1225     100     126     158     323     323    0.92 (  0.920 -   0.930)
+     6  1225  1275     158     156     155     468     468   -0.04 ( -0.047 -  -0.044)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 20 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      12      13      14      38      38    0.27 (  0.210 -   0.300)
+     2   950  1050      14      20      31     105     105    0.81 (  0.800 -   0.810)
+     3  1050  1125      31      26      22      97      97   -0.47 ( -0.470 -  -0.460)
+     4  1125  1175      22      48     107     129     129    3.26 (  3.250 -   3.260)
+     5  1175  1225     107     125     147     323     323    0.63 (  0.630 -   0.639)
+     6  1225  1275     147     154     162     468     468    0.20 (  0.204 -   0.208)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 25 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      12      16      20      38      38    1.07 (  1.010 -   1.100)
+     2   950  1050      20      26      33     105     105    0.48 (  0.480 -   0.489)
+     3  1050  1125      33      32      32      97      97   -0.05 ( -0.060 -  -0.040)
+     4  1125  1175      32      60     115     129     129    2.62 (  2.610 -   2.620)
+     5  1175  1225     115     158     218     323     323    1.28 (  1.276 -   1.280)
+     6  1225  1275     218     189     164     468     468   -0.57 ( -0.570 -  -0.568)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 25 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      13      16      18      38      38    0.71 (  0.700 -   0.710)
+     2   950  1050      18      26      36     105     105    0.66 (  0.660 -   0.670)
+     3  1050  1125      36      32      29      97      97   -0.27 ( -0.280 -  -0.260)
+     4  1125  1175      29      60     122     129     129    2.90 (  2.900 -   2.910)
+     5  1175  1225     122     159     208     323     323    1.07 (  1.066 -   1.070)
+     6  1225  1275     208     187     169     468     468   -0.41 ( -0.410 -  -0.407)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 25 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      14      15      17      38      38    0.36 (  0.310 -   0.400)
+     2   950  1050      17      25      39     105     105    0.83 (  0.830 -   0.840)
+     3  1050  1125      39      32      27      97      97   -0.48 ( -0.480 -  -0.470)
+     4  1125  1175      27      59     129     129     129    3.18 (  3.170 -   3.180)
+     5  1175  1225     129     160     198     323     323    0.87 (  0.868 -   0.870)
+     6  1225  1275     198     186     174     468     468   -0.26 ( -0.263 -  -0.260)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 30 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      15      18      22      38      38    0.81 (  0.800 -   0.810)
+     2   950  1050      22      31      43     105     105    0.65 (  0.640 -   0.650)
+     3  1050  1125      43      38      34      97      97   -0.28 ( -0.290 -  -0.270)
+     4  1125  1175      34      74     161     129     129    3.13 (  3.120 -   3.130)
+     5  1175  1225     161     189     222     323     323    0.65 (  0.640 -   0.650)
+     6  1225  1275     222     220     218     468     468   -0.03 ( -0.037 -  -0.033)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 30 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      16      18      20      38      38    0.48 (  0.420 -   0.500)
+     2   950  1050      20      31      46     105     105    0.82 (  0.820 -   0.830)
+     3  1050  1125      46      38      31      97      97   -0.54 ( -0.550 -  -0.530)
+     4  1125  1175      31      74     177     129     129    3.56 (  3.550 -   3.570)
+     5  1175  1225     177     187     197     323     323    0.21 (  0.209 -   0.210)
+     6  1225  1275     197     215     234     468     468    0.35 (  0.350 -   0.353)
+Note: The min and max growth rates may not represent the full range
+
+
+Structure Life: 30 uniform
+ Initial Period 1 Ages Randomized (Unifomly Distributed)
+       Start   End   Start   Midpt  Ending   Dated  Target  Growth
+Period  Date  Date   Rooms   rooms   Rooms   Rooms   Rooms  Rate %
+     1   900   950      17      18      19      38      38    0.17 (  0.110 -   0.200)
+     2   950  1050      19      30      50     105     105    1.00 (  0.990 -   1.000)
+     3  1050  1125      50      37      27      97      97   -0.80 ( -0.800 -  -0.780)
+     4  1125  1175      27      73     196     129     129    4.01 (  4.000 -   4.010)
+     5  1175  1225     196     184     173     323     323   -0.24 ( -0.248 -  -0.240)
+     6  1225  1275     173     209     252     468     468    0.75 (  0.749 -   0.750)
+Note: The min and max growth rates may not represent the full range
+
+Note: The min and max growth rates may not represent the full range
+
+Period Start   End Implied Growth
+ 1 - 2   925  1000          0.432
+ 2 - 3  1000  1088          0.238
+ 3 - 4  1088  1150          1.111
+ 4 - 5  1150  1200          1.853
+ 5 - 6  1200  1250          0.744
+
