@@ -10,7 +10,7 @@ uses ansistrings, strutils;
 const  missing=1.0e32;
        max_antana_errors=20;
        tokenlen=32;
-       years='1986-2007';
+       years='1986-2020';
        label_width=12;
 
        {database definition}
@@ -1485,9 +1485,9 @@ end;
 
 procedure copyright(name,version,years,description: ansistring);
 const str1=' Keith W. Kintigh';  str2='All Rights Reserved';
-  str3='2014 East Alameda Drive';
+  str3='421 Calle Kokopelli';
   str4='';
-  str7='Tempe, Arizona  85282';
+  str7='Santa Fe, NM 87501';
 var i,maxlen: integer; str5,str6: ansistring;
 begin
   {clrscr;}

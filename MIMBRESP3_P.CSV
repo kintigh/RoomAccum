@@ -1,0 +1,4 @@
+UseLife,UseSD,InitRm,Period,PerBeg,PerEnd,PerInitRm,PerMidRm,PerEndRm,PerDatedRm,TargRm,Rate
+ 15,  0.0,   23,1,  200,  550,   23,   27,      32,     646,  646,   0.092
+ 15,  0.0,   23,2,  550, 1000,   32,   40,      51,    1215, 1215,   0.104
+ 15,  0.0,   23,3, 1000, 1150,   51,  268,    1418,    4848, 4848,   2.246

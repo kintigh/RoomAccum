@@ -182,38 +182,48 @@ Begin
   if writetxt and writeyear then writeln(fle);
 end;
 
+procedure writeannualrecord;
+var i: integer;
+begin
+  if readbool('Print Annual Record','F') then begin
+    writeln(fle,' Year Occupied','    Built StillOcc');
+    for i:=period_start[1] to period_end[period] do
+      writeln(fle,i:5,round(rooms[occrm,i]/rfactor):9,
+      round(rooms[newrm,i]/rfactor):9,
+      round(rooms[abandonThisYear,i]/rfactor):9);
+  end;
+end;
+
 procedure writeimplied;  {Output the Final Configurations}
- var i: integer;
+var i: integer;
 begin
   writeln;
+  writeln('Compound Interest Formula Implied Growth Calculation');
   writeln('Period Start   End Implied Growth');
-  for i:=1 to nperiod-1 do
-    writeln(i:2,' -',i+1:2,(period_start[i]+period_end[i])/2:6:0,
-      (period_start[i+1]+period_end[i+1])/2:6:0,
-      (power(1.0*(target_rooms[i+1]/(period_end[i+1]-period_start[i+1]))/
-      (target_rooms[i]/(period_end[i]-period_start[i])),
+  for i:=1 to nperiod-1 do begin
+    write(i:2,' -',i+1:2);
+    write((period_start[i]+period_end[i])/2:6:0);
+    write((period_start[i+1]+period_end[i+1])/2:6:0);
+    writeln((power(1.0*(orig_target_rooms[i+1]/(period_end[i+1]-period_start[i+1]))/
+      (orig_target_rooms[i]/(period_end[i]-period_start[i])),
       1/(((period_start[i+1]+period_end[i+1])/2)-
       ((period_start[i]+period_end[i])/2)))-1)*100:15:3);
+
+  end;
   writeln;
   if writetxt then begin
     {writeln(fle,'Note: The min and max growth rates may not represent the full range'); }
     writeln(fle);
+    writeln(fle,'Compound Interest Formula Implied Growth Calculation');
     writeln(fle,'Period Start   End Implied Growth');
     for i:=1 to nperiod-1 do
       writeln(fle,i:2,' -',i+1:2,(period_start[i]+period_end[i])/2:6:0,
         (period_start[i+1]+period_end[i+1])/2:6:0,
-        (power(1.0*(target_rooms[i+1]/(period_end[i+1]-period_start[i+1]))/
-        (target_rooms[i]/(period_end[i]-period_start[i])),
+        (power(1.0*(orig_target_rooms[i+1]/(period_end[i+1]-period_start[i+1]))/
+        (orig_target_rooms[i]/(period_end[i]-period_start[i])),
         1/(((period_start[i+1]+period_end[i+1])/2)-
         ((period_start[i]+period_end[i])/2)))-1)*100:15:3);
     writeln(fle);
-    {if readbool('Print Annual Record','F') then begin
-      writeln(fle,' Year Occupied','    Built StillOcc');
-      for i:=period_start[1] to period_end[period] do
-        writeln(fle,i:5,round(rooms[occrm,i]/rfactor):9,
-        round(rooms[newrm,i]/rfactor):9,
-        round(rooms[abandonThisYear,i]/rfactor):9);
-    end;}
   end;
 end;
 
@@ -592,7 +602,7 @@ end;
 begin {Main Program Block}
 {Set Things Up}
   clrscr;
-  copyright('RoomAccum',version,'2004-2020',
+  copyright('RoomAccum',version,years,
       'Population Growth/Room Accumulation Simulation');
 
   structure_life:=25;
@@ -602,6 +612,9 @@ begin {Main Program Block}
 
   period_data;
   output_files;
+
+  writeimplied;
+
   iterate_rate:=iterate_run(show_iterations, trace);
 
   {start annual roomcount array at all 0}
@@ -611,6 +624,7 @@ begin {Main Program Block}
       rooms[i,j]:=0;
     end;
   for i:=1 to maxperiod do save_dated_rooms[i]:=0;
+
 
   repeat  {Start loop for a Full Run Again Loop}
     clean_slate; {clear period results}
@@ -622,6 +636,8 @@ begin {Main Program Block}
     randomize_use_life:=(gaussian_use_life or randomize_period_1_age);
     period:=0;
     current_rooms:=0;
+
+
 
     for i:=1 to nperiod do target_rooms[i]:=rfactor*orig_target_rooms[i];
     too_many_rooms:=4*global_max_rooms*rfactor;
@@ -637,7 +653,6 @@ begin {Main Program Block}
       min_growth_rate[period]:=1e10;
       max_growth_rate[period]:=-1e10;
       growth_rate_increment:=0.01; {1%}
-
 
       room_error:=0;
       save_randseed:=randseed;
@@ -788,7 +803,7 @@ begin {Main Program Block}
    until not readbool('Run Again','T');
   {Start Run Again Loop}
 
-  writeimplied;
+  {writeannualrecord;}
   closeup;
 
 end.
